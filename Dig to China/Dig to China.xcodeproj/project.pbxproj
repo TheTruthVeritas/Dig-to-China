@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5201A5A61F22BF5B004AC2E2 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201A5A51F22BF5B004AC2E2 /* Background.swift */; };
+		5201A5AA1F245F01004AC2E2 /* SpriteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201A5A91F245F01004AC2E2 /* SpriteSheet.swift */; };
+		5201A5AC1F2A6295004AC2E2 /* Gold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201A5AB1F2A6295004AC2E2 /* Gold.swift */; };
+		5201A5AE1F2B0ADB004AC2E2 /* ShovelDamage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5201A5AD1F2B0ADB004AC2E2 /* ShovelDamage.swift */; };
+		52056F471F351DAB009142BD /* digging.wav in Resources */ = {isa = PBXBuildFile; fileRef = 52056F461F351DAB009142BD /* digging.wav */; };
+		5209248C1F17F5360037819F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5209248B1F17F5360037819F /* AppDelegate.swift */; };
+		520924921F17F5360037819F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520924911F17F5360037819F /* GameScene.swift */; };
+		520924941F17F5360037819F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520924931F17F5360037819F /* GameViewController.swift */; };
+		520924971F17F5360037819F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520924951F17F5360037819F /* Main.storyboard */; };
+		520924991F17F5360037819F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520924981F17F5360037819F /* Assets.xcassets */; };
+		520924A71F17F5360037819F /* Dig_to_ChinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520924A61F17F5360037819F /* Dig_to_ChinaTests.swift */; };
+		520924B21F17F5360037819F /* Dig_to_ChinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520924B11F17F5360037819F /* Dig_to_ChinaUITests.swift */; };
+		520924C01F17F5960037819F /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520924BF1F17F5960037819F /* MSButtonNode.swift */; };
+		520924C21F17FB090037819F /* StartScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 520924C11F17FB090037819F /* StartScreen.sks */; };
+		520924C41F181DC10037819F /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520924C31F181DC10037819F /* StartScreen.swift */; };
+		520A7E031F3B956800644B9B /* CreditScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 520A7E021F3B956800644B9B /* CreditScreen.sks */; };
+		52196F831F33A102007458B5 /* VictoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52196F821F33A102007458B5 /* VictoryScreen.swift */; };
+		523278AF1F32F47C00B6D008 /* VictoryScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 523278AE1F32F47C00B6D008 /* VictoryScreen.sks */; };
+		5294BEAF1F3253D6009ADD93 /* player.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5294BEAE1F3253D6009ADD93 /* player.sks */; };
+		52AF22CB1F32798800D1F680 /* PlayerActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52AF22CA1F32798800D1F680 /* PlayerActions.sks */; };
+		52BD8F0E1F3BB587007C0E3D /* CreditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BD8F0D1F3BB587007C0E3D /* CreditScreen.swift */; };
+		52D388FE1F3D77D4009BB610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D388FD1F3D77D4009BB610 /* LaunchScreen.storyboard */; };
+		52E6AEDA1F31A1EC0097CFEB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52E6AED91F31A1EC0097CFEB /* GameScene.sks */; };
+		52EFA93C1F1D216E00C8A643 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFA93B1F1D216E00C8A643 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520924A31F17F5360037819F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520924801F17F5360037819F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520924871F17F5360037819F;
+			remoteInfo = "Dig to China";
+		};
+		520924AE1F17F5360037819F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520924801F17F5360037819F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520924871F17F5360037819F;
+			remoteInfo = "Dig to China";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5201A5A51F22BF5B004AC2E2 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		5201A5A91F245F01004AC2E2 /* SpriteSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteSheet.swift; sourceTree = "<group>"; };
+		5201A5AB1F2A6295004AC2E2 /* Gold.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gold.swift; sourceTree = "<group>"; };
+		5201A5AD1F2B0ADB004AC2E2 /* ShovelDamage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShovelDamage.swift; sourceTree = "<group>"; };
+		52056F461F351DAB009142BD /* digging.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = digging.wav; sourceTree = "<group>"; };
+		520924881F17F5360037819F /* Dig to China.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dig to China.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5209248B1F17F5360037819F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520924911F17F5360037819F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		520924931F17F5360037819F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		520924961F17F5360037819F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520924981F17F5360037819F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5209249D1F17F5360037819F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520924A21F17F5360037819F /* Dig to ChinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dig to ChinaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520924A61F17F5360037819F /* Dig_to_ChinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dig_to_ChinaTests.swift; sourceTree = "<group>"; };
+		520924A81F17F5360037819F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520924AD1F17F5360037819F /* Dig to ChinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dig to ChinaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520924B11F17F5360037819F /* Dig_to_ChinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dig_to_ChinaUITests.swift; sourceTree = "<group>"; };
+		520924B31F17F5360037819F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520924BF1F17F5960037819F /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		520924C11F17FB090037819F /* StartScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScreen.sks; sourceTree = "<group>"; };
+		520924C31F181DC10037819F /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		520A7E021F3B956800644B9B /* CreditScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CreditScreen.sks; sourceTree = "<group>"; };
+		52196F821F33A102007458B5 /* VictoryScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoryScreen.swift; sourceTree = "<group>"; };
+		523278AE1F32F47C00B6D008 /* VictoryScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = VictoryScreen.sks; path = ../VictoryScreen.sks; sourceTree = "<group>"; };
+		5294BEAE1F3253D6009ADD93 /* player.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = player.sks; sourceTree = "<group>"; };
+		52AF22CA1F32798800D1F680 /* PlayerActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = PlayerActions.sks; path = ../PlayerActions.sks; sourceTree = "<group>"; };
+		52BD8F0D1F3BB587007C0E3D /* CreditScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditScreen.swift; sourceTree = "<group>"; };
+		52D388FD1F3D77D4009BB610 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52E6AED91F31A1EC0097CFEB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		52EFA93B1F1D216E00C8A643 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520924851F17F5360037819F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5209249F1F17F5360037819F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520924AA1F17F5360037819F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5209247F1F17F5360037819F = {
+			isa = PBXGroup;
+			children = (
+				5209248A1F17F5360037819F /* Dig to China */,
+				520924A51F17F5360037819F /* Dig to ChinaTests */,
+				520924B01F17F5360037819F /* Dig to ChinaUITests */,
+				520924891F17F5360037819F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520924891F17F5360037819F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520924881F17F5360037819F /* Dig to China.app */,
+				520924A21F17F5360037819F /* Dig to ChinaTests.xctest */,
+				520924AD1F17F5360037819F /* Dig to ChinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5209248A1F17F5360037819F /* Dig to China */ = {
+			isa = PBXGroup;
+			children = (
+				5209248B1F17F5360037819F /* AppDelegate.swift */,
+				523278AE1F32F47C00B6D008 /* VictoryScreen.sks */,
+				52E6AED91F31A1EC0097CFEB /* GameScene.sks */,
+				5294BEAE1F3253D6009ADD93 /* player.sks */,
+				52AF22CA1F32798800D1F680 /* PlayerActions.sks */,
+				520924911F17F5360037819F /* GameScene.swift */,
+				52BD8F0D1F3BB587007C0E3D /* CreditScreen.swift */,
+				520A7E021F3B956800644B9B /* CreditScreen.sks */,
+				5201A5AD1F2B0ADB004AC2E2 /* ShovelDamage.swift */,
+				5201A5A51F22BF5B004AC2E2 /* Background.swift */,
+				5201A5AB1F2A6295004AC2E2 /* Gold.swift */,
+				52EFA93B1F1D216E00C8A643 /* Player.swift */,
+				5201A5A91F245F01004AC2E2 /* SpriteSheet.swift */,
+				520924C11F17FB090037819F /* StartScreen.sks */,
+				520924C31F181DC10037819F /* StartScreen.swift */,
+				52196F821F33A102007458B5 /* VictoryScreen.swift */,
+				52056F461F351DAB009142BD /* digging.wav */,
+				520924BF1F17F5960037819F /* MSButtonNode.swift */,
+				520924931F17F5360037819F /* GameViewController.swift */,
+				520924951F17F5360037819F /* Main.storyboard */,
+				520924981F17F5360037819F /* Assets.xcassets */,
+				52D388FD1F3D77D4009BB610 /* LaunchScreen.storyboard */,
+				5209249D1F17F5360037819F /* Info.plist */,
+			);
+			path = "Dig to China";
+			sourceTree = "<group>";
+		};
+		520924A51F17F5360037819F /* Dig to ChinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				520924A61F17F5360037819F /* Dig_to_ChinaTests.swift */,
+				520924A81F17F5360037819F /* Info.plist */,
+			);
+			path = "Dig to ChinaTests";
+			sourceTree = "<group>";
+		};
+		520924B01F17F5360037819F /* Dig to ChinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				520924B11F17F5360037819F /* Dig_to_ChinaUITests.swift */,
+				520924B31F17F5360037819F /* Info.plist */,
+			);
+			path = "Dig to ChinaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520924871F17F5360037819F /* Dig to China */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520924B61F17F5360037819F /* Build configuration list for PBXNativeTarget "Dig to China" */;
+			buildPhases = (
+				520924841F17F5360037819F /* Sources */,
+				520924851F17F5360037819F /* Frameworks */,
+				520924861F17F5360037819F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dig to China";
+			productName = "Dig to China";
+			productReference = 520924881F17F5360037819F /* Dig to China.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520924A11F17F5360037819F /* Dig to ChinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520924B91F17F5360037819F /* Build configuration list for PBXNativeTarget "Dig to ChinaTests" */;
+			buildPhases = (
+				5209249E1F17F5360037819F /* Sources */,
+				5209249F1F17F5360037819F /* Frameworks */,
+				520924A01F17F5360037819F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520924A41F17F5360037819F /* PBXTargetDependency */,
+			);
+			name = "Dig to ChinaTests";
+			productName = "Dig to ChinaTests";
+			productReference = 520924A21F17F5360037819F /* Dig to ChinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		520924AC1F17F5360037819F /* Dig to ChinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520924BC1F17F5360037819F /* Build configuration list for PBXNativeTarget "Dig to ChinaUITests" */;
+			buildPhases = (
+				520924A91F17F5360037819F /* Sources */,
+				520924AA1F17F5360037819F /* Frameworks */,
+				520924AB1F17F5360037819F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520924AF1F17F5360037819F /* PBXTargetDependency */,
+			);
+			name = "Dig to ChinaUITests";
+			productName = "Dig to ChinaUITests";
+			productReference = 520924AD1F17F5360037819F /* Dig to ChinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520924801F17F5360037819F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Martin Tang";
+				TargetAttributes = {
+					520924871F17F5360037819F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UYAU3CTDJY;
+						ProvisioningStyle = Manual;
+					};
+					520924A11F17F5360037819F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 520924871F17F5360037819F;
+					};
+					520924AC1F17F5360037819F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 520924871F17F5360037819F;
+					};
+				};
+			};
+			buildConfigurationList = 520924831F17F5360037819F /* Build configuration list for PBXProject "Dig to China" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5209247F1F17F5360037819F;
+			productRefGroup = 520924891F17F5360037819F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520924871F17F5360037819F /* Dig to China */,
+				520924A11F17F5360037819F /* Dig to ChinaTests */,
+				520924AC1F17F5360037819F /* Dig to ChinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520924861F17F5360037819F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520A7E031F3B956800644B9B /* CreditScreen.sks in Resources */,
+				520924971F17F5360037819F /* Main.storyboard in Resources */,
+				520924C21F17FB090037819F /* StartScreen.sks in Resources */,
+				523278AF1F32F47C00B6D008 /* VictoryScreen.sks in Resources */,
+				52D388FE1F3D77D4009BB610 /* LaunchScreen.storyboard in Resources */,
+				520924991F17F5360037819F /* Assets.xcassets in Resources */,
+				52056F471F351DAB009142BD /* digging.wav in Resources */,
+				52E6AEDA1F31A1EC0097CFEB /* GameScene.sks in Resources */,
+				5294BEAF1F3253D6009ADD93 /* player.sks in Resources */,
+				52AF22CB1F32798800D1F680 /* PlayerActions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520924A01F17F5360037819F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520924AB1F17F5360037819F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520924841F17F5360037819F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520924921F17F5360037819F /* GameScene.swift in Sources */,
+				52196F831F33A102007458B5 /* VictoryScreen.swift in Sources */,
+				520924941F17F5360037819F /* GameViewController.swift in Sources */,
+				5201A5AA1F245F01004AC2E2 /* SpriteSheet.swift in Sources */,
+				5201A5AE1F2B0ADB004AC2E2 /* ShovelDamage.swift in Sources */,
+				520924C41F181DC10037819F /* StartScreen.swift in Sources */,
+				5201A5A61F22BF5B004AC2E2 /* Background.swift in Sources */,
+				5209248C1F17F5360037819F /* AppDelegate.swift in Sources */,
+				52BD8F0E1F3BB587007C0E3D /* CreditScreen.swift in Sources */,
+				5201A5AC1F2A6295004AC2E2 /* Gold.swift in Sources */,
+				52EFA93C1F1D216E00C8A643 /* Player.swift in Sources */,
+				520924C01F17F5960037819F /* MSButtonNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5209249E1F17F5360037819F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520924A71F17F5360037819F /* Dig_to_ChinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520924A91F17F5360037819F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520924B21F17F5360037819F /* Dig_to_ChinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520924A41F17F5360037819F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520924871F17F5360037819F /* Dig to China */;
+			targetProxy = 520924A31F17F5360037819F /* PBXContainerItemProxy */;
+		};
+		520924AF1F17F5360037819F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520924871F17F5360037819F /* Dig to China */;
+			targetProxy = 520924AE1F17F5360037819F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		520924951F17F5360037819F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520924961F17F5360037819F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520924B41F17F5360037819F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520924B51F17F5360037819F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520924B71F17F5360037819F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = UYAU3CTDJY;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Dig\\ to\\ China";
+				INFOPLIST_FILE = "Dig to China/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junhaotang.Dig-to-China";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e4c5d8d3-b1f5-47c5-9d49-88e895db4981";
+				PROVISIONING_PROFILE_SPECIFIER = "Dig to China App Store";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China\n";
+			};
+			name = Debug;
+		};
+		520924B81F17F5360037819F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = UYAU3CTDJY;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Dig\\ to\\ China";
+				INFOPLIST_FILE = "Dig to China/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junhaotang.Dig-to-China";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e4c5d8d3-b1f5-47c5-9d49-88e895db4981";
+				PROVISIONING_PROFILE_SPECIFIER = "Dig to China App Store";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China $(PROJECT_DIR)/Dig\\ to\\ China\n";
+			};
+			name = Release;
+		};
+		520924BA1F17F5360037819F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dig to ChinaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MakeSchool.Dig-to-ChinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dig to China.app/Dig to China";
+			};
+			name = Debug;
+		};
+		520924BB1F17F5360037819F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dig to ChinaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MakeSchool.Dig-to-ChinaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dig to China.app/Dig to China";
+			};
+			name = Release;
+		};
+		520924BD1F17F5360037819F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dig to ChinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MakeSchool.Dig-to-ChinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dig to China";
+			};
+			name = Debug;
+		};
+		520924BE1F17F5360037819F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dig to ChinaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MakeSchool.Dig-to-ChinaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dig to China";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520924831F17F5360037819F /* Build configuration list for PBXProject "Dig to China" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520924B41F17F5360037819F /* Debug */,
+				520924B51F17F5360037819F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520924B61F17F5360037819F /* Build configuration list for PBXNativeTarget "Dig to China" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520924B71F17F5360037819F /* Debug */,
+				520924B81F17F5360037819F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520924B91F17F5360037819F /* Build configuration list for PBXNativeTarget "Dig to ChinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520924BA1F17F5360037819F /* Debug */,
+				520924BB1F17F5360037819F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520924BC1F17F5360037819F /* Build configuration list for PBXNativeTarget "Dig to ChinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520924BD1F17F5360037819F /* Debug */,
+				520924BE1F17F5360037819F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520924801F17F5360037819F /* Project object */;
+}
